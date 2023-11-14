@@ -6,7 +6,7 @@
 <meta charset="ISO-8859-1">
 <style>
 	/* import your fonts here */
-	@import url('https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap');
+	@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&family=Playfair+Display&family=Poppins&family=Roboto:wght@500&display=swap');
 </style>
 <script src="https://cdn.tailwindcss.com"></script>
 <script>
@@ -20,7 +20,9 @@
 		fontFamily: {
 			// add your fonts here
 			'playfair': ['Playfair Display', 'serif'],
-			'nunito': ['nunito', 'sans-serif'],
+			'nunito': ['Nunito', 'sans-serif'],
+			'poppins': ['Poppins', 'sans-serif'],
+			'roboto': ['Roboto', 'sans-serif'],
 		},
       }
     }
@@ -315,7 +317,7 @@
 	    </div>
 	  	</div>
 		<div class="justify-center items-stretch self-center flex w-[173px] max-w-full flex-col mt-44 px-5 max-md:mt-10">
-			<div class="text-zinc-800 text-center text-5xl font-bold leading-[72px] whitespace-nowrap -mr-5 max-md:text-4xl max-md:leading-[67px]">
+			<div class="font-playfair text-zinc-800 text-center text-5xl font-bold leading-[72px] whitespace-nowrap -mr-5 max-md:text-4xl max-md:leading-[67px]">
 	     		Contact
 	    	</div>
 			<div class="bg-purple-300 self-center flex w-[100px] shrink-0 h-1 flex-col mt-1 rounded-sm"></div>
