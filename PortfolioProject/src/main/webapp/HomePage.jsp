@@ -350,30 +350,27 @@
 		<div
 			class="justify-center items-center self-center z-[1] flex w-[650px] max-w-full flex-col mt-20 px-5 py-0.5 max-md:mt-10">
 			<div class="items-stretch self-stretch flex flex-col -mr-5">
-				<div
-					class="text-zinc-800 text-base font-nunito font-semibold leading-6 whitespace-nowrap">
-					Name</div>
-				<div
-					class="border bg-white flex shrink-0 h-10 flex-col mt-3.5 rounded-lg border-solid border-slate-200"></div>
+				<div class="text-zinc-800 text-base font-nunito font-semibold leading-6 whitespace-nowrap">
+					Name
+					</div>
+				<div class="border bg-white flex shrink-0 h-10 flex-col mt-3.5 rounded-lg border-solid border-slate-200">
+					<input id="name" name="name" type="text" placeholder="John"></div>
 			</div>
 			<div class="items-stretch self-stretch flex flex-col -mr-5 mt-7">
-				<div
-					class="text-zinc-800 text-base font-nunito font-semibold leading-6 whitespace-nowrap">
+				<div class="text-zinc-800 text-base font-nunito font-semibold leading-6 whitespace-nowrap">
 					Email</div>
-				<div
-					class="border bg-white flex shrink-0 h-10 flex-col mt-3.5 rounded-lg border-solid border-slate-200"></div>
+				<div class="border bg-white flex shrink-0 h-10 flex-col mt-3.5 rounded-lg border-solid border-slate-200">
+					<input id="email" name="email" type="email" placeholder="abc@example.com"></div>
 			</div>
 			<div class="items-stretch self-stretch flex flex-col -mr-5 mt-7">
-				<div
-					class="text-zinc-800 text-base font-nunito font-semibold leading-6 whitespace-nowrap">
+				<div class="text-zinc-800 text-base font-nunito font-semibold leading-6 whitespace-nowrap">
 					Message</div>
-				<div
-					class="border bg-white flex shrink-0 h-40 flex-col mt-3 rounded-lg border-solid border-slate-200"></div>
+				<div class="border bg-white flex shrink-0 h-40 flex-col mt-3 rounded-lg border-solid border-slate-200">
+					<input id="message" name="message" type="text" placeholder="Message"></div>
 			</div>
 			<!-- working send button CSS interaction, can reuse this -->
-			<div
-				class="text-zinc-800 hover:text-zinc-50 text-lg font-roboto font-medium leading-7 whitespace-nowrap items-center bg-purple-300 hover:bg-purple-400 active:bg-purple-500 hover:cursor-pointer w-[89px] max-w-full -mr-5 mt-4 px-4 py-2 rounded-lg self-end">
-				Send</div>
+			<div class="text-zinc-800 hover:text-zinc-50 text-lg font-roboto font-medium leading-7 whitespace-nowrap items-center bg-purple-300 hover:bg-purple-400 active:bg-purple-500 hover:cursor-pointer w-[89px] max-w-full -mr-5 mt-4 px-4 py-2 rounded-lg self-end">
+				<input type="submit" value="Send"></div>
 			<jsp:include page="Footer.html" />
 		</div>
 		<img loading="lazy"
