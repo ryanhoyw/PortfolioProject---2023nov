@@ -6,7 +6,7 @@ pageEncoding="ISO-8859-1"%>
     <meta charset="ISO-8859-1" />
     <style>
       /* import your fonts here */
-      @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&family=Playfair+Display:wght@700&family=Poppins&family=Roboto:wght@500&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Nunito:wght@400;600;700;800&family=Outfit:wght@500&family=Playfair+Display:wght@700&family=Poppins&family=Raleway:wght@500&family=Roboto:wght@500&display=swap");
     </style>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -19,9 +19,12 @@ pageEncoding="ISO-8859-1"%>
           },
           fontFamily: {
             // add your fonts here
-            playfair: ["Playfair Display", "serif"],
+            comfortaa: ["Comfortaa", "sans-serif"],
             nunito: ["Nunito", "sans-serif"],
+            outfit: ["Outfit", "sans-serif"],
+            playfair: ["Playfair Display", "serif"],
             poppins: ["Poppins", "sans-serif"],
+            raleway: ["Raleway", "sans-serif"],
             roboto: ["Roboto", "sans-serif"],
           },
         },
@@ -86,7 +89,7 @@ pageEncoding="ISO-8859-1"%>
                 class="z-[1] flex mr-0 w-full justify-between gap-5 my-auto px-5 max-md:max-w-full max-md:flex-wrap max-md:mt-9"
               >
                 <div
-                  class="text-zinc-800 text-3xl font-bold leading-[58px] grow shrink basis-auto"
+                  class="text-zinc-800 text-3xl font-comfortaa font-bold leading-[58px] grow shrink basis-auto"
                 >
                   Lauren Petersen
                 </div>
@@ -97,25 +100,25 @@ pageEncoding="ISO-8859-1"%>
                     class="items-stretch flex pt-0 pb-0 justify-between gap-4 my-auto max-md:justify-center"
                   >
                     <div
-                      class="text-zinc-800 text-lg font-medium leading-7 whitespace-nowrap items-stretch self-center aspect-[1.8571428571428572] my-auto rounded-sm border-b-2 border-b-black border-solid"
+                      class="text-zinc-800 text-lg font-raleway font-medium leading-7 whitespace-nowrap items-stretch self-center aspect-[1.8571428571428572] my-auto rounded-sm border-b-2 border-b-black border-solid"
                     >
                       Home
                     </div>
                     <div class="bg-black w-px shrink-0 h-10"></div>
                     <div
-                      class="text-zinc-800 text-lg font-medium leading-7 self-center my-auto"
+                      class="text-zinc-800 text-lg font-raleway font-medium leading-7 self-center my-auto"
                     >
                       Projects
                     </div>
                     <div class="bg-black w-px shrink-0 h-10"></div>
                     <div
-                      class="text-zinc-800 text-lg font-medium leading-7 self-center whitespace-nowrap my-auto"
+                      class="text-zinc-800 text-lg font-raleway font-medium leading-7 self-center whitespace-nowrap my-auto"
                     >
                       About
                     </div>
                   </div>
                   <div
-                    class="text-white text-center text-xl font-medium leading-6 tracking-widest capitalize whitespace-nowrap items-stretch self-stretch grow px-5 py-2.5 rounded-xl"
+                    class="text-white text-center text-xl font-outfit font-medium leading-6 tracking-widest capitalize whitespace-nowrap items-stretch self-stretch grow px-5 py-2.5 rounded-xl"
                   >
                     Contact Me
                   </div>
@@ -142,18 +145,18 @@ pageEncoding="ISO-8859-1"%>
                 class="items-start flex flex-col mt-16 px-5 max-md:max-w-full max-md:mt-10"
               >
                 <div
-                  class="text-zinc-800 text-6xl font-bold leading-[77px] self-stretch -mr-5 max-md:max-w-full max-md:text-4xl max-md:leading-[53px]"
+                  class="text-zinc-800 text-6xl font-playfair font-bold leading-[77px] self-stretch -mr-5 max-md:max-w-full max-md:text-4xl max-md:leading-[53px]"
                 >
                   <span class="">Hello, I'm</span>
                   <span class="">Lauren Peterson</span>
                 </div>
                 <div
-                  class="self-stretch text-purple-300 text-xl font-bold leading-7 uppercase -mr-5 mt-8 max-md:max-w-full"
+                  class="self-stretch text-purple-300 text-xl font-nunito font-bold leading-7 uppercase -mr-5 mt-8 max-md:max-w-full"
                 >
                   <span class="">Front-end Developer | UI/UX Designer</span>
                 </div>
                 <div
-                  class="text-zinc-500 text-2xl leading-9 self-stretch -mr-5 mt-8 max-md:max-w-full"
+                  class="font-nunito text-zinc-500 text-2xl leading-9 self-stretch -mr-5 mt-8 max-md:max-w-full"
                 >
                   Short text with details about you, what you do or your
                   professional career. You can add more information on the about
@@ -163,12 +166,12 @@ pageEncoding="ISO-8859-1"%>
                   class="items-stretch flex w-[244px] max-w-full gap-3 mt-8 self-start"
                 >
                   <div
-                    class="text-zinc-800 text-lg font-medium leading-7 whitespace-nowrap items-center bg-purple-300 grow px-5 py-2 rounded-lg"
+                    class="text-zinc-800 text-lg font-roboto leading-7 whitespace-nowrap items-center bg-purple-300 grow px-5 py-2 rounded-lg"
                   >
                     Projects
                   </div>
                   <div
-                    class="text-zinc-800 text-lg font-medium leading-7 whitespace-nowrap items-center border-[color:var(--bg-line,#25282B)] grow px-5 py-2 rounded-lg border-2 border-solid"
+                    class="text-zinc-800 text-lg font-roboto font-medium leading-7 whitespace-nowrap items-center border-[color:var(--bg-line,#25282B)] grow px-5 py-2 rounded-lg border-2 border-solid"
                   >
                     LinkedIn
                   </div>
@@ -191,9 +194,9 @@ pageEncoding="ISO-8859-1"%>
         class="justify-center items-center bg-slate-50 self-stretch flex w-full flex-col mt-14 pl-11 pr-11 pt-11 pb-24 max-md:max-w-full max-md:mt-10 max-md:px-5"
       >
         <div
-          class="text-5xl font-extrabold leading-[76px] bg-clip-text whitespace-nowrap max-md:text-4xl max-md:leading-[68px]"
+          class="text-5xl font-nunito font-extrabold leading-[76px] bg-clip-text whitespace-nowrap max-md:text-4xl max-md:leading-[68px]"
         >
-          About Me
+          Work Experiences
         </div>
         <div class="self-stretch mt-10 max-md:max-w-full">
           <div
@@ -211,11 +214,13 @@ pageEncoding="ISO-8859-1"%>
                   class="aspect-square object-contain object-center w-16 justify-center items-center overflow-hidden max-w-full"
                 />
                 <div
-                  class="justify-center text-zinc-700 text-3xl font-medium leading-10 self-stretch mt-6"
+                  class="justify-center text-zinc-700 text-3xl font-outfit font-medium leading-10 self-stretch mt-6"
                 >
                   Blockchain Development Services
                 </div>
-                <div class="self-stretch text-zinc-700 text-lg leading-7 mt-3">
+                <div
+                  class="font-nunito self-stretch text-zinc-700 text-lg leading-7 mt-3"
+                >
                   Lorem ipsum dolor sit amet consectetur. Malesuada pulvinar
                   sapien at integer elit non quam ut nec. Congue suspendisse
                   arcu massa ullamcorper amet proin orci risus. Rhoncus netus
@@ -246,11 +251,13 @@ pageEncoding="ISO-8859-1"%>
                   class="aspect-square object-contain object-center w-16 justify-center items-center overflow-hidden max-w-full"
                 />
                 <div
-                  class="text-zinc-700 text-3xl font-medium leading-10 self-stretch mt-6"
+                  class="text-zinc-700 text-3xl font-outfit font-medium leading-10 self-stretch mt-6"
                 >
                   Web & App Design Services
                 </div>
-                <div class="self-stretch text-zinc-700 text-lg leading-7 mt-3">
+                <div
+                  class="font-nunito self-stretch text-zinc-700 text-lg leading-7 mt-3"
+                >
                   Lorem ipsum dolor sit amet consectetur. Quis elementum ornare
                   felis nec consequat. Pulvinar urna pellentesque elit tincidunt
                   fames tortor. Magna et etiam pellentesque fringilla sit nunc.
@@ -279,11 +286,13 @@ pageEncoding="ISO-8859-1"%>
                   class="aspect-square object-contain object-center w-16 justify-center items-center overflow-hidden max-w-full"
                 />
                 <div
-                  class="text-zinc-700 text-3xl font-medium leading-10 self-stretch mt-6"
+                  class="text-zinc-700 text-3xl font-outfit font-medium leading-10 self-stretch mt-6"
                 >
                   Data Science Services
                 </div>
-                <div class="self-stretch text-zinc-700 text-lg leading-7 mt-3">
+                <div
+                  class="font-nunito self-stretch text-zinc-700 text-lg leading-7 mt-3"
+                >
                   Lorem ipsum dolor sit amet consectetur. Consectetur quis
                   praesent consequat blandit ornare diam libero sem. Tincidunt
                   felis adipiscing id at dictumst. Pellentesque enim ornare
@@ -308,7 +317,7 @@ pageEncoding="ISO-8859-1"%>
         class="justify-center items-stretch self-center flex w-[181px] max-w-full flex-col mt-28 px-5 max-md:mt-10"
       >
         <div
-          class="text-zinc-800 text-center text-5xl font-bold leading-[72px] whitespace-nowrap -mr-5 max-md:text-4xl max-md:leading-[67px]"
+          class="text-zinc-800 text-center text-5xl font-playfair font-bold leading-[72px] whitespace-nowrap -mr-5 max-md:text-4xl max-md:leading-[67px]"
         >
           Projects
         </div>
@@ -329,16 +338,18 @@ pageEncoding="ISO-8859-1"%>
               class="justify-center bg-white flex grow flex-col w-full mx-auto pl-12 pr-10 py-36 max-md:max-w-full max-md:px-5 max-md:py-24"
             >
               <div
-                class="self-stretch text-zinc-800 text-4xl font-bold leading-[60px]"
+                class="self-stretch text-zinc-800 text-4xl font-playfair leading-[60px]"
               >
                 Project Name
               </div>
-              <div class="self-stretch text-zinc-500 text-lg leading-7 mt-6">
+              <div
+                class="font-nunito self-stretch text-zinc-500 text-lg leading-7 mt-6"
+              >
                 I created this personal project in order to show how to create
                 an interface in Figma using a portfolio as an example.
               </div>
               <div
-                class="text-zinc-800 text-lg font-medium leading-7 whitespace-nowrap items-center border border-[color:var(--font-high-emphasis,#25282B)] mb-0 w-[150px] max-w-full mt-6 px-5 py-2 rounded-3xl border-solid max-md:mb-2.5"
+                class="text-zinc-800 text-lg font-roboto font-medium leading-7 whitespace-nowrap items-center border border-[color:var(--font-high-emphasis,#25282B)] mb-0 w-[150px] max-w-full mt-6 px-5 py-2 rounded-3xl border-solid max-md:mb-2.5"
               >
                 View Project
               </div>
@@ -377,16 +388,18 @@ pageEncoding="ISO-8859-1"%>
               class="justify-center bg-white flex grow flex-col w-full mx-auto pl-12 pr-10 py-40 max-md:max-w-full max-md:px-5 max-md:py-24"
             >
               <div
-                class="self-stretch text-zinc-800 text-4xl font-bold leading-[60px]"
+                class="self-stretch text-zinc-800 text-4xl font-playfair font-bold leading-[60px]"
               >
                 Project Name
               </div>
-              <div class="self-stretch text-zinc-500 text-lg leading-7 mt-6">
+              <div
+                class="font-nunito self-stretch text-zinc-500 text-lg leading-7 mt-6"
+              >
                 What was your role, your deliverables, if the project was
                 personal, freelancing.
               </div>
               <div
-                class="text-zinc-800 text-lg font-medium leading-7 whitespace-nowrap items-center border border-[color:var(--font-high-emphasis,#25282B)] mb-0 w-[150px] max-w-full mt-6 px-5 py-2 rounded-3xl border-solid max-md:mb-2.5"
+                class="text-zinc-800 text-lg font-roboto font-medium leading-7 whitespace-nowrap items-center border border-[color:var(--font-high-emphasis,#25282B)] mb-0 w-[150px] max-w-full mt-6 px-5 py-2 rounded-3xl border-solid max-md:mb-2.5"
               >
                 View Project
               </div>
@@ -407,16 +420,18 @@ pageEncoding="ISO-8859-1"%>
               class="justify-center bg-white flex grow flex-col w-full mx-auto pl-12 pr-10 py-40 max-md:max-w-full max-md:px-5 max-md:py-24"
             >
               <div
-                class="self-stretch text-zinc-800 text-4xl font-bold leading-[60px]"
+                class="self-stretch text-zinc-800 text-4xl font-playfair font-bold leading-[60px]"
               >
                 Project Name
               </div>
-              <div class="self-stretch text-zinc-500 text-lg leading-7 mt-6">
+              <div
+                class="font-nunito self-stretch text-zinc-500 text-lg leading-7 mt-6"
+              >
                 You can also add in this description the type of the project, if
                 it was for web, mobile, electron.
               </div>
               <div
-                class="text-zinc-800 text-lg font-medium leading-7 whitespace-nowrap items-center border border-[color:var(--font-high-emphasis,#25282B)] mb-0 w-[150px] max-w-full mt-6 px-5 py-2 rounded-3xl border-solid max-md:mb-2.5"
+                class="text-zinc-800 text-lg font-roboto font-medium leading-7 whitespace-nowrap items-center border border-[color:var(--font-high-emphasis,#25282B)] mb-0 w-[150px] max-w-full mt-6 px-5 py-2 rounded-3xl border-solid max-md:mb-2.5"
               >
                 View Project
               </div>
