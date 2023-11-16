@@ -353,19 +353,19 @@
 					Name
 					</div>
 				<div class="border bg-white flex shrink-0 h-10 flex-col mt-3.5 rounded-lg border-solid border-slate-200">
-					<input class="h-full rounded-lg" id="name" name="name" type="text" placeholder="John"></div>
+					<input class="h-full rounded-lg" id="name" name="name" type="text" placeholder="&nbsp John"></div>
 			</div>
 			<div class="items-stretch self-stretch flex flex-col -mr-5 mt-7">
 				<div class="text-zinc-800 text-base font-nunito font-semibold leading-6 whitespace-nowrap">
 					Email</div>
 				<div class="border bg-white flex shrink-0 h-10 flex-col mt-3.5 rounded-lg border-solid border-slate-200">
-					<input class="h-full rounded-lg" id="email" name="email" type="email" placeholder="abc@example.com"></div>
+					<input class="h-full rounded-lg" id="email" name="email" type="email" placeholder="&nbsp abc@example.com"></div>
 			</div>
 			<div class="items-stretch self-stretch flex flex-col -mr-5 mt-7">
 				<div class="text-zinc-800 text-base font-nunito font-semibold leading-6 whitespace-nowrap">
 					Message</div>
 				<div class="border bg-white flex shrink-0 h-40 flex-col mt-3 rounded-lg border-solid border-slate-200">
-					<textarea class="h-full rounded-lg align-top resize-none" id="message" name="message" placeholder="Message"></textarea>
+					<textarea class="h-full rounded-lg align-top resize-none" id="message" name="message" placeholder="&nbsp Message"></textarea>
 					</div>
 			</div>
 			<!-- working send button CSS interaction, can reuse this -->
